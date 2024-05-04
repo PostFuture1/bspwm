@@ -1,3 +1,4 @@
+
 # terminal emulator
 super + Return
 	alacritty
@@ -8,11 +9,12 @@ super + {d,x}
 
 # launch applications
 
-super + shift + {f,n,p,t,c,v,i,x,q,k,l}
+super + shift + {f,n,p,t,o}
 	{firefox, \
 	thunar, \
 	pavucontrol, \
-	telegram-desktop}
+	telegram-desktop, \
+	obsidian}
 
 # make sxhkd reload its configuration files:
 super + Escape + r
@@ -26,9 +28,13 @@ super + Escape + r
 ctrl + shift + {q,r}
     bspc {quit,wm -r}
 
+# Hide or Unhide Polybar
+super + p
+	sh $HOME/bin/toggle-polybar
+
 # close and kill
-super + c
-	bspc node -c
+super + {_,shift + }c
+	bspc node -{c,k}
 
 # alternate between the tiled and monocle layout
 super + m
