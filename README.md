@@ -15,4 +15,13 @@ wget -c "https://github.com/Castro-Fidel/PortProton_ALT/raw/main/portproton" && 
 **Install cert**
 
 ```
+Download crt:
+russian_trusted_sub_ca_pem.crt
+russian_trusted_root_ca_pem.crt
+
+cd Загрузки/
+cp russian_trusted_sub_ca_pem.crt /etc/ca-certificates/trust-source/anchors/
+cp russian_trusted_root_ca_pem.crt /etc/ca-certificates/trust-source/anchors/
+
+trust extract-compat
 ```
