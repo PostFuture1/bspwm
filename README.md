@@ -25,7 +25,7 @@ sudo cp russian_trusted_root_ca_pem.crt /etc/ca-certificates/trust-source/anchor
 
 sudo trust extract-compat
 ```
-***Install Citirix Workspace***
+**Install Citirix Workspace**
 
 ```
 wget https://downloads.citrix.com/22629/linuxx64-24.2.0.65.tar.gz?__gda__=exp=1714904723~acl=/*~hmac=bf543d8f01ab42e9caaa973b626be5208a15186a4eae08d98ac3c90e563d2ac5
