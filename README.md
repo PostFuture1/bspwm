@@ -20,8 +20,8 @@ russian_trusted_sub_ca_pem.crt
 russian_trusted_root_ca_pem.crt
 
 cd Загрузки/
-cp russian_trusted_sub_ca_pem.crt /etc/ca-certificates/trust-source/anchors/
-cp russian_trusted_root_ca_pem.crt /etc/ca-certificates/trust-source/anchors/
+sudo cp russian_trusted_sub_ca_pem.crt /etc/ca-certificates/trust-source/anchors/
+sudo cp russian_trusted_root_ca_pem.crt /etc/ca-certificates/trust-source/anchors/
 
-trust extract-compat
+sudo trust extract-compat
 ```
