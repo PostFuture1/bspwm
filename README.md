@@ -1,7 +1,7 @@
 **Install soft**
 
 ```
-sudo pacman -S xorg-server xorg-xinit xorg-xset xorg-xsetroot xorg-xrandr xorg-xrdb nitrogen bspwm sxhkd rofi polybar picom thunar alacritty mesa lib32-mesa xf86-video-amdgpu vulkan-radeon lib32-vulkan-radeon libva-mesa-driver lib32-libva-mesa-driver mesa-vdpau lib32-mesa-vdpau firefox obsidian gparted lxsession-gtk3 qbittorrent
+sudo pacman -S xorg-server xorg-xinit xorg-xset xorg-xsetroot xorg-xrandr xorg-xrdb nitrogen bspwm sxhkd rofi polybar picom thunar alacritty mesa lib32-mesa xf86-video-amdgpu vulkan-radeon lib32-vulkan-radeon libva-mesa-driver lib32-libva-mesa-driver mesa-vdpau lib32-mesa-vdpau firefox obsidian gparted lxsession-gtk3 qbittorrent webkit2gtk
 ```
 **Install PortProton**
 
@@ -25,3 +25,6 @@ sudo cp russian_trusted_root_ca_pem.crt /etc/ca-certificates/trust-source/anchor
 
 sudo trust extract-compat
 ```
+***Install Citirix Workspace***
+
+wget https://downloads.citrix.com/22629/linuxx64-24.2.0.65.tar.gz?__gda__=exp=1714904723~acl=/*~hmac=bf543d8f01ab42e9caaa973b626be5208a15186a4eae08d98ac3c90e563d2ac5
